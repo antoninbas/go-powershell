@@ -7,7 +7,7 @@ commands.
 
 ## Installation
 
-    go get github.com/benmoss/go-powershell
+    go get github.com/antoninbas/go-powershell
 
 ## Usage
 
@@ -21,8 +21,8 @@ package main
 import (
 	"fmt"
 
-	ps "github.com/benmoss/go-powershell"
-	"github.com/benmoss/go-powershell/backend"
+	ps "github.com/antoninbas/go-powershell"
+	"github.com/antoninbas/go-powershell/backend"
 )
 
 func main() {
@@ -59,9 +59,9 @@ package main
 import (
 	"fmt"
 
-	ps "github.com/benmoss/go-powershell"
-	"github.com/benmoss/go-powershell/backend"
-	"github.com/benmoss/go-powershell/middleware"
+	ps "github.com/antoninbas/go-powershell"
+	"github.com/antoninbas/go-powershell/backend"
+	"github.com/antoninbas/go-powershell/middleware"
 )
 
 func main() {
